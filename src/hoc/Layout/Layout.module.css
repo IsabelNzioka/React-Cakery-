@@ -2,48 +2,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 
-.main {
+.Main {
   max-width: 120rem;
   display: flex;
   color: rgb(49, 49, 22);
-  /* flex: 1; */
-  /* font-family: "Montserrat", sans-serif; */
-  font-family: "Special Elite", cursive;
 
-  /* border: 1px solid brown; */
+  font-family: "Montserrat", sans-serif;
 }
 
 .nav {
-  /* background-color: #52232f; */
   color: rgb(48, 18, 18);
   flex: 0 0 18%;
-  /* width: 10%; */
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 
   position: sticky;
   font-size: 1.4rem;
-  width: 35%;
+  width: 30%;
 
   height: 100vh;
   position: sticky;
   top: 0;
   left: 0;
-
-  /* position: fixed; */
-
-  /* align-self: center; */
-  /* align-content: flex-start; */
 }
 
 .nav__items,
 .nav__logo,
 .nav__location {
   margin: 0 2rem;
-
-  /* color: #2c0606; */
 }
 .nav__items {
   margin-top: -9rem;
@@ -52,27 +36,22 @@
 .nav__logo {
   font-family: "Pacifico", cursive;
   font-size: 1.6rem;
-  /* border-left: 3px solid #cbd5f0; */
+
   color: #df3030;
-  /* border-bottom-width: 0.5rem; */
+
   width: 4.5rem;
   padding: 3px;
-  /* margin-top: -3rem; */
-  /* border-width: 2rem; */
-  /* margin-bottom: 2rem; */
-  /* display: flex; */
+
   position: relative;
 }
 
 .cakery {
-  /* margin-top: -90rem; */
   margin-left: 2.5rem;
 
   position: absolute;
   top: 4rem;
 }
 .happy {
-  /* letter-spacing: -1.7rem; */
   writing-mode: vertical-rl;
   text-orientation: upright;
   letter-spacing: 1.8;
@@ -111,7 +90,7 @@
   /* background-position: center; */
   /* background-color: #d4d48c; */
   flex: 1;
-  width: 65%;
+  width: 70%;
   /* background-color: #ff1493; */
   /* height: 130vh; */
   /* border-left: 1px solid brown; */

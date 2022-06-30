@@ -1,0 +1,96 @@
+.Cards {
+  display: flex;
+  /* flex-direction: row; */
+  margin: 5rem 2rem;
+  justify-content: space-between;
+  width: 95%;
+  flex-wrap: wrap;
+}
+
+.CardContent {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 360px;
+  /* background-color: #f5c7c7; */
+  margin-bottom: 3rem;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px #e5e2e2;
+  transition: all 0.5s;
+}
+.CardContent:hover {
+  transform: scaleY(1.1);
+}
+
+.CardImage {
+  background-color: aqua;
+  height: 300px;
+  /* transition: all 0.5s; */
+}
+
+.CardContent:hover .CardImage {
+  /* filter: blur(1px);
+    op */
+  opacity: 0.5;
+}
+
+.Price h2 {
+  font-size: 1.7rem;
+  color: red;
+  opacity: 0;
+  transform: translateY(-5rem);
+  transition: 0.5s;
+}
+.CardContent:hover .Price h2 {
+  transform: translateY(-7rem);
+  opacity: 1;
+}
+
+.Price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+/* .ExpeContent1,
+  .ExpeContent2,
+  .ExpeContent3 { */
+/* background-color: #f5c7c7; */
+/* width: 40%;
+    height: 500px; */
+/* margin: 1rem; */
+/* } */
+/* .ExpeContent1 {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+  }
+  
+  .ExpeContent2 {
+    margin-top: -3.5rem;
+    height: 700px;
+    background-color: #f5c7c7;
+  }
+  .ExpeContent3 {
+    margin-top: -9rem; */
+/* } */
+
+/* .Experts {
+      display: flex;
+      margin-bottom: 5rem;
+    } */
+/* 
+  .ExpertContent {
+    width: 30%;
+    height: 400px;
+    margin: 1rem;
+  }
+  .Expert {
+    width: 25%;
+    height: 300px;
+  }
+  .ExpertContent:first-child {
+    margin-left: 3.3rem;
+  } */

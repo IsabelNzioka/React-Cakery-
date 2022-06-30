@@ -1,0 +1,17 @@
+.Cakes {
+  /* background-color: #f5c7c7; */
+  margin-top: 5rem;
+}
+
+.Categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 3rem;
+}
+
+.Categories a {
+  text-decoration: none;
+  margin-left: 2rem;
+  color: inherit;
+}
