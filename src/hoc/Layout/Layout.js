@@ -9,7 +9,7 @@ const layout = (props) => (
     <div div className={classes.nav}>
       <Navbar />
     </div>
-    <div className={classes.content}>{props.children}</div>
+    <div className={classes.content}>{props.children} </div>
 
     {/* <main></main> */}
   </div>

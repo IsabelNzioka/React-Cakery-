@@ -6,12 +6,22 @@
 .Categories {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  margin-right: 3rem;
+  justify-content: space-between;
+  margin-top: -4rem;
+  /* margin-right: 2rem; */
 }
 
 .Categories a {
-  text-decoration: none;
+  /* text-decoration: none;
   margin-left: 2rem;
   color: inherit;
+  background-color: yellow;
+  margin-top: 0; */
+}
+
+@media only screen and (max-width: 1000px) {
+  .Cakes {
+    /* background-color: aqua; */
+    margin-top: 0rem;
+  }
 }

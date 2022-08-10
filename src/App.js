@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Home from "./components/Home/Home";
@@ -15,7 +15,7 @@ const App = () => {
     </Routes>
   );
   return (
-    <div>
+    <div className="App">
       {/* <Home /> */}
       <Layout>{routes}</Layout>
     </div>

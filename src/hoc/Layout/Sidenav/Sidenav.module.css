@@ -2,24 +2,77 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
+
+  /* background-color: #272424; */
+  /* width: 100%; */
   height: 100vh;
-}
-
-.navbar {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.navbar,
-.NavLocation {
   margin: 0 1.5rem;
 }
 
+/* .navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: chocolate; */
+
+/* height: 70%; */
+/* } */
+
+@media only screen and (max-width: 1000px) {
+  .nav {
+    margin: 0 0.5rem;
+    flex-direction: row;
+    height: 25vh;
+    flex-wrap: wrap;
+    /* background-color: rgb(80, 74, 72); */
+  }
+
+  /* .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 0 0 100%;
+  } */
+  .NavItems {
+    display: flex;
+    /* margin-top: 3rem; */
+    height: 20vh;
+
+    /* background-color: rgb(253, 77, 224); */
+    /* margin-top: -3rem; */
+    padding: 5px;
+  }
+
+  .NavLocation {
+    display: none;
+    /* order: 1;
+    flex: 0 0 100%;
+    background-color: #df3030; */
+  }
+  .Logo {
+    margin-left: 1.5rem;
+  }
+
+  .NavLogo {
+    font-size: 1.3rem;
+    color: #272424;
+    font-weight: 600;
+  }
+}
+
+/* .navbar,
+.NavLocation {
+  margin: 0 1.5rem;
+} */
+
 .NavItems {
-  width: 5.5rem;
-  width: 100%;
+  /* background-color: #df3030; */
+  /* width: 5.5rem;
+  width: 100%; */
+  flex: 1%;
+  list-style: none;
+  /* background-color: aquamarine; */
+  margin-top: -3rem;
+  padding: 1rem;
 
   animation-name: moveInLeft;
   animation-duration: 1s;
@@ -29,37 +82,25 @@
 .NavLogo {
   font-family: "Pacifico", cursive;
   font-size: 1.6rem;
-
   color: #df3030;
+  font-weight: 700;
+  /* background-color: #f5c7c7; */
+  /* margin-bottom: 2.5rem; */
+  /* width: 4.5rem; */
+  flex: 0 0 30%;
+  /* padding: 3px; */
 
-  width: 4.5rem;
-  padding: 3px;
-
-  position: relative;
+  /* position: relative; */
 
   animation-name: moveInRight;
   animation-duration: 1s;
   animation-timing-function: ease-out;
 }
 
-.cakery {
-  margin-left: 2.5rem;
-
-  position: absolute;
-  top: 4rem;
-}
-.happy {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  letter-spacing: 1.8;
-}
-.cafe {
-  align-self: center;
-}
-
-.content {
-  flex: 1;
-  width: 60%;
+.Logo {
+  /* margin-left: 2.5rem; */
+  /* position: absolute;
+  top: 4rem; */
 }
 
 .btn {
@@ -68,12 +109,13 @@
   width: 15rem;
   letter-spacing: 0.2rem;
 
-  background: linear-gradient(135deg, transparent 10px, #f5c7c7 0) top left;
+  /* background: linear-gradient(135deg, transparent 10px, #f5c7c7 0) top left; */
+  background-color: chartreuse;
 
   background-repeat: no-repeat;
   border: 1px solid #fafafb;
 
-  margin-top: -10rem;
+  /* margin-top: -10rem; */
   position: relative;
 
   animation-name: moveInRight;

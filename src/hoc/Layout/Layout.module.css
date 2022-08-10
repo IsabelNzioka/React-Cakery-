@@ -3,16 +3,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 
 .Main {
-  max-width: 120rem;
+  min-height: 105rem;
+
   display: flex;
   color: rgb(49, 49, 22);
+
+  /* background-color: #df3030; */
 
   font-family: "Montserrat", sans-serif;
 }
 
 .nav {
-  color: rgb(48, 18, 18);
+  /* background-color: cadetblue; */
+  /* width: 30%; */
+  /* background-color: silver; */
   flex: 0 0 18%;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+
+  /* color: rgb(48, 18, 18);
 
   position: sticky;
   font-size: 1.4rem;
@@ -21,10 +31,42 @@
   height: 100vh;
   position: sticky;
   top: 0;
-  left: 0;
+  left: 0; */
 }
 
-.nav__items,
+.content {
+  /* background-color: red; */
+  /* background-color: black; */
+  width: 70%;
+  flex: 1%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Main {
+    flex-direction: column;
+  }
+  .nav {
+    /* height: 5vh; */
+    /* background-color: rgb(177, 71, 71); */
+
+    /* flex: 0 0 100%; */
+    /* 
+    
+    width: 100%;
+    background-color: #f5c7c7; */
+  }
+
+  .nav__logo {
+    font-size: 1.3rem;
+    /* padding: 3px; */
+  }
+
+  .content {
+    width: 100%;
+  }
+}
+
+/* .nav__items,
 .nav__logo,
 .nav__location {
   margin: 0 2rem;
@@ -36,16 +78,13 @@
 .nav__logo {
   font-family: "Pacifico", cursive;
   font-size: 1.6rem;
+  color: #df3030; */
+/* width: 4.5rem; */
+/* padding: 3px; */
+/* position: relative; */
+/* } */
 
-  color: #df3030;
-
-  width: 4.5rem;
-  padding: 3px;
-
-  position: relative;
-}
-
-.cakery {
+/* .cakery {
   margin-left: 2.5rem;
 
   position: absolute;
@@ -58,15 +97,12 @@
 }
 .cafe {
   align-self: center;
-}
-
-.nav__items {
-  list-style: none;
-}
-
-/* .nav__item {
 } */
 
+/* .nav__items {
+  list-style: none;
+} */
+/* 
 .nav__item:not(:last-child) {
   margin-bottom: 0.5rem;
 }
@@ -77,23 +113,6 @@
   display: block;
   padding-top: 1rem;
   position: relative;
-  /* z-index: 10; */
-
-  /* display: flex; */
-  /* align-items: center; */
-}
-
-.content {
-  /* background-image: url("./img/burger-9.jpg"); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-  /* background-color: #d4d48c; */
-  flex: 1;
-  width: 70%;
-  /* background-color: #ff1493; */
-  /* height: 130vh; */
-  /* border-left: 1px solid brown; */
 }
 
 .btn {
@@ -101,17 +120,12 @@
   padding: 1rem 1.2rem;
   width: 15rem;
   letter-spacing: 0.2rem;
-  /* border-top-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem; */
-  /* background-color: red; */
+
   background: linear-gradient(135deg, transparent 10px, #f5c7c7 0) top left;
 
-  /* background-size: 50% 50%; */
   background-repeat: no-repeat;
   border: 1px solid #fafafb;
 
   margin-top: -10rem;
   position: relative;
-
-  /* filter: drop-shadow(-4px 0px 0px5#0862a8); */
-}
+} */

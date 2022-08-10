@@ -1,5 +1,10 @@
 .Link {
   width: 100%;
+  /* background-color: rgb(136, 181, 221); */
+  /* border-bottom: 1px solid black; */
+  /* margin-bottom: 5rem; */
+  list-style: none;
+  padding: 0.5rem;
 }
 
 .Link:not(:last-child) {
@@ -8,10 +13,24 @@
 
 .Link a {
   text-decoration: none;
+
   /* width: 100%; */
   box-sizing: border-box;
+  /* padding-bottom: 2rem; */
+
   color: inherit;
-  margin-bottom: 0.5rem;
+  /* color: rgb(45, 223, 74); */
+}
+
+@media only screen and (max-width: 1000px) {
+  .Link {
+    background-color: white;
+    margin-top: 4rem;
+    /* padding: 0.1rem; */
+  }
+  .Link a {
+    /* margin-left: 2rem; */
+  }
 }
 
 .Link a:hover,
@@ -20,7 +39,7 @@
   border-bottom: 1px solid #df3030;
 }
 
-@media (min-width: 501px) {
+/* @media (min-width: 501px) {
   .Link {
     margin: 0;
     display: flex;
@@ -32,5 +51,6 @@
   .Link a:hover,
   .Link a.active {
     border-bottom: 1.9px solid #df3030;
-  }
-}
+  } */
+/* } */
+/*  */
