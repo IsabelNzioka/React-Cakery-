@@ -11,13 +11,13 @@
   /* margin-right: 2rem; */
 }
 
-.Categories a {
-  /* text-decoration: none;
+/* .Categories a { */
+/* text-decoration: none;
   margin-left: 2rem;
   color: inherit;
   background-color: yellow;
   margin-top: 0; */
-}
+/* } */
 
 @media only screen and (max-width: 1000px) {
   .Cakes {

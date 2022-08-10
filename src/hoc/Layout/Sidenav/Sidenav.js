@@ -7,9 +7,9 @@ const Navbar = () => (
   <nav className={classes.nav}>
     {/* <div className={classes.navbar}> */}
     <div className={classes.NavLogo}>
-      <h1>
+      <h4>
         Bella's <span className="Logo"> Cakery.</span>
-      </h1>
+      </h4>
     </div>
 
     <ul className={classes.NavItems}>

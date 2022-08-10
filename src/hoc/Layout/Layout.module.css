@@ -45,87 +45,20 @@
   .Main {
     flex-direction: column;
   }
-  /* .nav { */
-  /* height: 5vh; */
-  /* background-color: rgb(177, 71, 71); */
-
-  /* flex: 0 0 100%; */
-  /* 
-    
-    width: 100%;
-    background-color: #f5c7c7; */
-  /* } */
 
   .nav__logo {
     font-size: 1.3rem;
-    /* padding: 3px; */
   }
 
   .content {
     width: 100%;
+    /* background-color: aqua; */
   }
 }
 
-/* .nav__items,
-.nav__logo,
-.nav__location {
-  margin: 0 2rem;
-}
-.nav__items {
-  margin-top: -9rem;
-}
-
-.nav__logo {
-  font-family: "Pacifico", cursive;
-  font-size: 1.6rem;
-  color: #df3030; */
-/* width: 4.5rem; */
-/* padding: 3px; */
-/* position: relative; */
+/* @media only screen and (max-width: 615px) {
+  .content {
+    background-color: rgb(217, 255, 0); */
+/* height: 80vh; */
 /* } */
-
-/* .cakery {
-  margin-left: 2.5rem;
-
-  position: absolute;
-  top: 4rem;
-}
-.happy {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  letter-spacing: 1.8;
-}
-.cafe {
-  align-self: center;
-} */
-
-/* .nav__items {
-  list-style: none;
-} */
-/* 
-.nav__item:not(:last-child) {
-  margin-bottom: 0.5rem;
-}
-.nav__item--link {
-  color: var(--color-grey-light-1);
-  text-decoration: none;
-  text-transform: uppercase;
-  display: block;
-  padding-top: 1rem;
-  position: relative;
-}
-
-.btn {
-  text-transform: uppercase;
-  padding: 1rem 1.2rem;
-  width: 15rem;
-  letter-spacing: 0.2rem;
-
-  background: linear-gradient(135deg, transparent 10px, #f5c7c7 0) top left;
-
-  background-repeat: no-repeat;
-  border: 1px solid #fafafb;
-
-  margin-top: -10rem;
-  position: relative;
-} */
+/* } */

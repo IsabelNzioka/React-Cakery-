@@ -27,11 +27,6 @@
     /* background-color: rgb(80, 74, 72); */
   }
 
-  /* .navbar {
-    flex-direction: row;
-    justify-content: space-between;
-    flex: 0 0 100%;
-  } */
   .NavItems {
     display: flex;
     /* margin-top: 3rem; */
@@ -56,6 +51,21 @@
     font-size: 1.3rem;
     color: #272424;
     font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .nav {
+    margin: 0;
+    flex-direction: column;
+  }
+  .NavLogo {
+    align-self: center;
+    font-size: 0.1rem;
+  }
+
+  .NavItems {
+    height: 10vh;
   }
 }
 
@@ -97,11 +107,11 @@
   animation-timing-function: ease-out;
 }
 
-.Logo {
-  /* margin-left: 2.5rem; */
-  /* position: absolute;
+/* .Logo { */
+/* margin-left: 2.5rem; */
+/* position: absolute;
   top: 4rem; */
-}
+/* } */
 
 .btn {
   text-transform: uppercase;
