@@ -45,16 +45,16 @@
   .Main {
     flex-direction: column;
   }
-  .nav {
-    /* height: 5vh; */
-    /* background-color: rgb(177, 71, 71); */
+  /* .nav { */
+  /* height: 5vh; */
+  /* background-color: rgb(177, 71, 71); */
 
-    /* flex: 0 0 100%; */
-    /* 
+  /* flex: 0 0 100%; */
+  /* 
     
     width: 100%;
     background-color: #f5c7c7; */
-  }
+  /* } */
 
   .nav__logo {
     font-size: 1.3rem;
