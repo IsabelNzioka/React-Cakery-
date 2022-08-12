@@ -33,6 +33,17 @@
   /* } */
 }
 
+@media only screen and (max-width: 690px) {
+  .Link {
+    background-color: white;
+    margin-top: 1rem;
+    /* padding: 0.1rem; */
+  }
+  /* .Link a { */
+  /* margin-left: 2rem; */
+  /* } */
+}
+
 .Link a:hover,
 .Link a:active,
 .Link a.active {

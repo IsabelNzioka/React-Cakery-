@@ -23,7 +23,7 @@
     margin: 0 0.5rem;
     flex-direction: row;
     height: 25vh;
-    flex-wrap: wrap;
+
     /* background-color: rgb(80, 74, 72); */
   }
 
@@ -54,7 +54,20 @@
   }
 }
 
-@media only screen and (max-width: 615px) {
+@media only screen and (max-width: 690px) {
+  .nav {
+    /* background-color: dimgray; */
+    flex-direction: column;
+    height: 20vh;
+  }
+  /* .NavItems { */
+  /* margin-top: 0; */
+  /* background-color: #df3030; */
+  /* height: 15vh; */
+  /* } */
+}
+
+/* @media only screen and (max-width: 615px) {
   .nav {
     margin: 0;
     flex-direction: column;
@@ -67,7 +80,7 @@
   .NavItems {
     height: 10vh;
   }
-}
+} */
 
 /* .navbar,
 .NavLocation {
