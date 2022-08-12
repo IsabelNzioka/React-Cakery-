@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 
 .Main {
-  min-height: 105rem;
+  max-height: 100rem;
 
   display: flex;
   color: rgb(49, 49, 22);
