@@ -58,10 +58,12 @@
   .nav {
     /* background-color: dimgray; */
     flex-direction: column;
-    height: 18vh;
+    height: 15vh;
   }
   .NavLogo {
     text-align: center;
+    font-size: 1rem;
+    margin-top: -2rem;
   }
   /* .NavItems { */
   /* margin-top: 0; */
@@ -73,7 +75,7 @@
 @media only screen and (max-width: 470px) {
   .NavItems {
     font-size: 0.8rem;
-    margin-top: -1rem;
+    /* margin-top: -1rem; */
   }
 }
 
