@@ -73,6 +73,7 @@
 @media only screen and (max-width: 470px) {
   .NavItems {
     font-size: 0.8rem;
+    margin-top: -1rem;
   }
 }
 
