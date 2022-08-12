@@ -58,7 +58,10 @@
   .nav {
     /* background-color: dimgray; */
     flex-direction: column;
-    height: 20vh;
+    height: 18vh;
+  }
+  .NavLogo {
+    text-align: center;
   }
   /* .NavItems { */
   /* margin-top: 0; */
@@ -67,20 +70,11 @@
   /* } */
 }
 
-/* @media only screen and (max-width: 615px) {
-  .nav {
-    margin: 0;
-    flex-direction: column;
-  }
-  .NavLogo {
-    align-self: center;
-    font-size: 0.1rem;
-  }
-
+@media only screen and (max-width: 470px) {
   .NavItems {
-    height: 10vh;
+    font-size: 0.8rem;
   }
-} */
+}
 
 /* .navbar,
 .NavLocation {
