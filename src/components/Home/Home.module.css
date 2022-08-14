@@ -3,10 +3,9 @@
 
 /* } */
 
-/* .Home { */
-/* background-image: url("../../img/c2.jpg"); */
-/* background-color: #000000; */
-/* } */
+.Home {
+  background-color: transparent;
+}
 
 .Slider {
   height: 100vh;

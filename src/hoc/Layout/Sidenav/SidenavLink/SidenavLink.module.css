@@ -1,8 +1,5 @@
 .Link {
   width: 100%;
-  /* background-color: rgb(136, 181, 221); */
-  /* border-bottom: 1px solid black; */
-  /* margin-bottom: 5rem; */
   list-style: none;
   padding: 0.5rem;
 }
@@ -13,34 +10,25 @@
 
 .Link a {
   text-decoration: none;
-
-  /* width: 100%; */
   box-sizing: border-box;
-  /* padding-bottom: 2rem; */
-
   color: inherit;
-  /* color: rgb(45, 223, 74); */
 }
 
 @media only screen and (max-width: 1000px) {
   .Link {
-    background-color: white;
     margin-top: 4rem;
-    /* padding: 0.1rem; */
   }
-  /* .Link a { */
-  /* margin-left: 2rem; */
-  /* } */
 }
-
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 850px) {
   .Link {
-    background-color: white;
-    margin-top: 1rem;
-    /* padding: 0.1rem; */
+    /* align-self: flex-end; */
+    margin-top: 1.5rem;
+
+    /* width: 50%; */
+    background-color: rgb(54, 151, 235);
   }
   /* .Link a { */
-  /* margin-left: 2rem; */
+  /* align-self: center; */
   /* } */
 }
 

@@ -7,36 +7,17 @@
 
   display: flex;
   color: rgb(49, 49, 22);
-
-  /* background-color: #df3030; */
-
   font-family: "Montserrat", sans-serif;
 }
 
 .nav {
-  /* background-color: cadetblue; */
-  /* width: 30%; */
-  /* background-color: silver; */
   flex: 0 0 18%;
   height: 100vh;
   position: sticky;
   top: 0;
-
-  /* color: rgb(48, 18, 18);
-
-  position: sticky;
-  font-size: 1.4rem;
-  width: 30%;
-
-  height: 100vh;
-  position: sticky;
-  top: 0;
-  left: 0; */
 }
 
 .content {
-  /* background-color: red; */
-  /* background-color: black; */
   width: 70%;
   flex: 1%;
 }
@@ -46,16 +27,19 @@
     flex-direction: column;
   }
 
-  .nav__logo {
-    font-size: 1.3rem;
-  }
-
   .content {
     width: 100%;
     /* background-color: aqua; */
   }
 }
 
-/* @media only screen and (max-width: 690px) {
- 
-} */
+@media only screen and (max-width: 850px) {
+  .nav {
+    z-index: 10;
+  }
+
+  .content {
+    width: 100%;
+    z-index: -1;
+  }
+}
