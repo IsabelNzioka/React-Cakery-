@@ -25,9 +25,9 @@
     /* align-self: flex-end; */
     margin-top: 0rem;
     margin: 0 auto;
-    padding-left: 50%;
+    padding-left: 40%;
     width: 50%;
-    background-color: rgb(200, 211, 221);
+    /* background-color: rgb(200, 211, 221); */
   }
   .Link a {
     align-self: center;

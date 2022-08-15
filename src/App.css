@@ -3,6 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 
 .App {
-  /* overflow: hidden; */
+  overflow: hidden;
   box-sizing: border-box;
 }

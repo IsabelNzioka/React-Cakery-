@@ -107,6 +107,7 @@ label.logo {
     flex-direction: column;
     height: 20vh;
     transition: all 0.9s;
+    background-color: #fbffe2;
 
     /* height: 100vh; */
   }
@@ -114,12 +115,12 @@ label.logo {
   .NavLogo {
     margin: 0;
     height: 20vh;
-    background-color: #7fff00;
+    /* background-color: #7fff00; */
   }
   .NavItems {
     transition: all 0.9s;
     flex-direction: column;
-    background-color: #7fff00;
+    background-color: #fbffe2;
     /* z-index: 90000; */
     /* height: 100vh; */
     font-size: 1.4rem;
