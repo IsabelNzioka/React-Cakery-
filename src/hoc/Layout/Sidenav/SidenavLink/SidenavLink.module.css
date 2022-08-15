@@ -19,17 +19,19 @@
     margin-top: 4rem;
   }
 }
-@media only screen and (max-width: 850px) {
+
+@media only screen and (max-width: 950px) {
   .Link {
     /* align-self: flex-end; */
-    margin-top: 1.5rem;
-
-    /* width: 50%; */
-    background-color: rgb(54, 151, 235);
+    margin-top: 0rem;
+    margin: 0 auto;
+    padding-left: 50%;
+    width: 50%;
+    background-color: rgb(200, 211, 221);
   }
-  /* .Link a { */
-  /* align-self: center; */
-  /* } */
+  .Link a {
+    align-self: center;
+  }
 }
 
 .Link a:hover,

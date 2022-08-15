@@ -8,7 +8,8 @@ const Home = () => {
   return (
     <div className={classes.Home}>
       <div className={classes.Slider}>
-        <SimpleSlider />
+        hii
+        {/* <SimpleSlider /> */}
       </div>
     </div>
   );

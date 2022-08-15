@@ -25,14 +25,19 @@
   flex-direction: row;
   justify-content: space-between;
 
-  font-size: 2rem;
-  color: #df3030;
   font-weight: 700;
   flex: 0 0 30%;
 
   animation-name: moveInRight;
   animation-duration: 1s;
   animation-timing-function: ease-out;
+}
+
+label.logo {
+  color: #df3030;
+  font-size: 2rem;
+  line-height: 6rem;
+  padding: 1rem;
 }
 
 .Menu {
@@ -50,7 +55,7 @@
   width: 15rem;
   letter-spacing: 0.2rem;
   /* background: linear-gradient(135deg, transparent 10px, #f5c7c7 0) top left; */
-  background-color: chartreuse;
+  background-color: #7fff00;
   background-repeat: no-repeat;
   border: 1px solid #fafafb;
   position: relative;
@@ -69,6 +74,10 @@
     height: 20vh;
     /* background-color: aqua; */
     margin: 0;
+  }
+
+  label.logo {
+    line-height: 5rem;
   }
 
   .NavItems {
@@ -93,7 +102,7 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
   .nav {
     flex-direction: column;
     height: 20vh;
@@ -105,23 +114,21 @@
   .NavLogo {
     margin: 0;
     height: 20vh;
+    background-color: #7fff00;
   }
   .NavItems {
+    transition: all 0.9s;
     flex-direction: column;
-    background-color: #df3030;
-    z-index: 90000s;
-    /* align-items: center; */
-    /* width: 50%; */
-
-    /* margin-top: -5rem; */
-    /* margin: 0.1rem; */
-    /* background-color: bisque; */
-    /* background-color: bisque; */
-    font-size: 0.9rem;
-    display: none;
-    /* margin-left: 100%; */
+    background-color: #7fff00;
+    /* z-index: 90000; */
+    /* height: 100vh; */
+    font-size: 1.4rem;
+    /* display: none; */
+    margin-left: 150%;
+    padding: 2rem;
     /* padding: 0; */
   }
+
   .Menu {
     /* background-color: #df3030; */
     display: block;

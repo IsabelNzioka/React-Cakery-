@@ -6,7 +6,7 @@ import { HiMenu } from "react-icons/hi";
 
 const Navbar = () => {
   const handleClick = () => {
-    // console.log("clicked");
+    console.log("clicked");
     const ul = document.querySelector("ul");
     ul.classList.toggle(classes.showMenu);
   };
@@ -14,9 +14,11 @@ const Navbar = () => {
     <nav className={classes.nav}>
       {/* <div className={classes.navbar}> */}
       <div className={classes.NavLogo}>
-        <h3>
+        <label class={classes.logo}>B's Cakery.</label>
+        {/* <h3>
           Bella's <span className={classes.Logo}> Cakery.</span>
-        </h3>
+        </h3> */}
+        {/* <h3>Cakery</h3> */}
 
         <div onClick={handleClick} className={classes.Menu}>
           <HiMenu />
