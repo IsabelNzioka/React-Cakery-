@@ -1,9 +1,13 @@
 import React from "react";
 import classes from "./Cakes.module.css";
 import Cards from "../cards/Cards";
-import SideNavLink from "../../hoc/Layout/Sidenav/SidenavLink/SidenavLink";
+// import SideNavLink from "../../hoc/Layout/Sidenav/SidenavLink/SidenavLink";
 import Vegan from "./Vegan/Vegan";
 
+// import SideNavLink from "../../hoc/Layout/Sidenav/SidenavLink/NavigationItems/NavigationItems";
+
+// import SidenavLink from "../../hoc/Layout/Sidenav/SidenavLink/SidenavLink";
+import NavigationItem from "../../hoc/Layout/Sidenav/SidenavLink/NavigationItems/NavigationItems";
 import { Routes, Route } from "react-router-dom";
 
 const Cakes = () => {
@@ -19,12 +23,13 @@ const Cakes = () => {
         <Routes>
           <Route path="/vegan" element={<Vegan />}></Route>
         </Routes>
+        {/* <SideNavLink /> */}
 
-        <SideNavLink link="/all">All</SideNavLink>
-        <SideNavLink link="/lemon-cakes">Lemon Cakes</SideNavLink>
-        <SideNavLink link="/chocolate"> Chocolate</SideNavLink>
-        <SideNavLink link="/vanilla"> Vanilla</SideNavLink>
-        <SideNavLink link="/vegan"> Vegan</SideNavLink>
+        <NavigationItem link="/all">All</NavigationItem>
+        <NavigationItem link="/lemon-cakes">Lemon Cakes</NavigationItem>
+        <NavigationItem link="/chocolate"> Chocolate</NavigationItem>
+        <NavigationItem link="/vanilla"> Vanilla</NavigationItem>
+        <NavigationItem link="/vegan"> Vegan</NavigationItem>
       </div>
       <hr></hr>
       {/* <Vegan /> */}

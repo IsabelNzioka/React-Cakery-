@@ -31,13 +31,13 @@ const SimpleSlider = () => {
   return (
     <div className={classes.Slider}>
       <div className={classes.imgslider}>
-        <Slider {...settings}>
+        {/* <Slider {...settings}>
           {images.map((item) => (
             <div key={item}>
               <img src={item} alt={item.alt} />
             </div>
           ))}
-        </Slider>
+        </Slider> */}
       </div>
     </div>
   );

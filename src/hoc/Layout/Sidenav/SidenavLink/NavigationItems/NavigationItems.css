@@ -1,0 +1,55 @@
+.Link {
+  width: 100%;
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.Link:not(:last-child) {
+  margin-bottom: 0.2rem;
+}
+
+.Link a {
+  text-decoration: none;
+  box-sizing: border-box;
+  color: inherit;
+}
+
+/* @media only screen and (max-width: 1000px) {
+    .Link {
+      margin-top: 4rem;
+    }
+  } */
+
+@media only screen and (max-width: 950px) {
+  .Link {
+    margin-top: 0rem;
+    margin: 0 auto;
+    padding-left: 40%;
+    width: 50%;
+  }
+  .Link a {
+    align-self: center;
+  }
+}
+
+.Link a:hover,
+.Link a:active,
+.Link a.active {
+  border-bottom: 1px solid #df3030;
+}
+
+/* @media (min-width: 501px) {
+    .Link {
+      margin: 0;
+      display: flex;
+  
+      width: auto;
+      align-items: center;
+    }
+    .Link a:active,
+    .Link a:hover,
+    .Link a.active {
+      border-bottom: 1.9px solid #df3030;
+    } */
+/* } */
+/*  */

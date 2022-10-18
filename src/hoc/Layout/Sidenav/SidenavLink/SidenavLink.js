@@ -1,24 +1,20 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import classes from "./SidenavLink.module.css";
+// import SideNavLink from "./NavigationItems/NavigationItems";
+import NavigationItem from "./NavigationItems/NavigationItems";
 
-const sideNavLink = (props) => {
-  //   let activeStyle = {
-  //     textDecoration: "underline",
-  //   };
-
-  //   let activeClassName = "underline";
-
+const SidenavLink = () => {
   return (
-    <li className={classes.Link}>
-      <NavLink
-        to={props.link}
-        className={({ isActive }) => (isActive ? classes.active : undefined)}
-      >
-        {props.children}
-      </NavLink>
-    </li>
+    <div>
+      <ul className="NavItems">
+        <NavigationItem link="/">Cakes </NavigationItem>
+        <NavigationItem link="/cakes">catering </NavigationItem>
+        <NavigationItem link="/about">About Us </NavigationItem>
+        <NavigationItem link="/home">home </NavigationItem>
+        <NavigationItem link="/hours"> Locations </NavigationItem>
+        <NavigationItem link="/giftcards">Gift cards </NavigationItem>
+      </ul>
+    </div>
   );
 };
 
-export default sideNavLink;
+export default SidenavLink;

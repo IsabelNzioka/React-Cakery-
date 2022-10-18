@@ -4,40 +4,36 @@ import classes from "./Sidenav.module.css";
 import SideNavLink from "./SidenavLink/SidenavLink";
 import { HiMenu } from "react-icons/hi";
 
-const Navbar = () => {
-  const handleClick = () => {
-    console.log("clicked");
-    const ul = document.querySelector("ul");
-    ul.classList.toggle(classes.showMenu);
+import MenuToggle from "../SideDrawer/MenuToggle/MenuToggle";
+
+const Navbar = (props) => {
+  const clicked = () => {
+    console.log("please work");
   };
   return (
     <nav className={classes.nav}>
       {/* <div className={classes.navbar}> */}
       <div className={classes.NavLogo}>
-        <label class={classes.logo}>B's Cakery.</label>
+        <label className={classes.logo}>B's Cakery.</label>
         {/* <h3>
           Bella's <span className={classes.Logo}> Cakery.</span>
         </h3> */}
         {/* <h3>Cakery</h3> */}
 
-        <div onClick={handleClick} className={classes.Menu}>
+        {/* <div onClick={handleClick} className={classes.Menu}>
           <HiMenu />
-        </div>
+        </div> */}
       </div>
+      <div className={classes.DesktopOnly}>
+        <SideNavLink />
 
-      <ul className={classes.NavItems}>
-        <SideNavLink link="/">Cakes </SideNavLink>
-        <SideNavLink link="/cakes">catering </SideNavLink>
-        <SideNavLink link="/about">About Us </SideNavLink>
-        <SideNavLink link="/home">home </SideNavLink>
-        <SideNavLink link="/hours"> Locations </SideNavLink>
-        <SideNavLink link="/giftcards">Gift cards </SideNavLink>
-      </ul>
-
-      <div className={classes.NavLocation}>
+        {/* <div className={classes.NavLocation}> */}
         <button className={classes.btn}>Order</button>
+        {/* </div> */}
       </div>
       {/* </div> */}
+
+      <MenuToggle clicked={props.menuToggleClicked} />
     </nav>
   );
 };
